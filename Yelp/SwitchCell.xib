@@ -27,11 +27,17 @@
                     </switch>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="2Yb-ra-fMN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="BBh-8C-MkN"/>
                     <constraint firstItem="qV4-FG-u5d" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="IKA-Yw-X2w"/>
                     <constraint firstAttribute="centerY" secondItem="2Yb-ra-fMN" secondAttribute="centerY" id="VBL-t9-ZDW"/>
                     <constraint firstAttribute="centerY" secondItem="qV4-FG-u5d" secondAttribute="centerY" id="hh4-O1-Ra6"/>
                     <constraint firstAttribute="trailing" secondItem="2Yb-ra-fMN" secondAttribute="trailing" constant="8" id="pBf-cB-Jhh"/>
                 </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="BBh-8C-MkN"/>
+                    </mask>
+                </variation>
             </tableViewCellContentView>
             <connections>
                 <outlet property="switchNameLabel" destination="qV4-FG-u5d" id="JEe-Hh-Iky"/>

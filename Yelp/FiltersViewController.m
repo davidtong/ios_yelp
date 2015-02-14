@@ -216,7 +216,6 @@
 
 - (void)onApplyButton {
     [self.delegate filtersViewController:self didChangeFilters:self.filters];
-    NSLog(@"%@", self.filter);
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 

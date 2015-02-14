@@ -30,6 +30,5 @@
 
 - (IBAction)didUpdateValue:(id)sender {
     [self.delegate SegmentedCell:self didUpdateValue:self.segmentedControl.selectedSegmentIndex];
-    NSLog(@"%i", (int)self.segmentedControl.selectedSegmentIndex);
 }
 @end

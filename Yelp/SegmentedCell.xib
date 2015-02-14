@@ -17,6 +17,7 @@
                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zbi-Mi-k4r">
                         <rect key="frame" x="8" y="10" width="304" height="17.5"/>
                         <constraints>
+                            <constraint firstAttribute="height" constant="16.5" id="4Bj-G6-y08"/>
                             <constraint firstAttribute="height" constant="25" id="dXq-ne-FcU"/>
                         </constraints>
                         <segments>
@@ -25,6 +26,7 @@
                         </segments>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="4Bj-G6-y08"/>
                                 <exclude reference="dXq-ne-FcU"/>
                             </mask>
                         </variation>
